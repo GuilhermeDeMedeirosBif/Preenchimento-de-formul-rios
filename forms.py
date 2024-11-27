@@ -48,7 +48,5 @@ for linha in participantes_planilha.iter_rows(min_row=2):
     pygui.click(604, 788, duration=2)
     sleep(5)
     pygui.scroll(1000)
-    pygui.hotkey('ctrl', 'w')
-    sleep(2)
-    webbrowser.open('https://forms.gle/ED57ScaAvGWwhoGv9')
+    pygui.click(118, 76, duration=2)
     sleep(2)
